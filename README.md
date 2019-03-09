@@ -27,7 +27,7 @@ All the training images must be in JPEG format.
 This version has been update to solve possible problems with calculating evaluation accuracies.  
 このバージョンは検証時精度（evaluation accuracies）の正確さを計算することで起こりうる問題を解決するために更新されました。
 
-Usage change: （使い方）
+Usage change:  
 Put all the training images in one folder and create a file `labels.txt` inside project root containing all the possible labels.  
 すべてのトレーニング画像を1つのフォルダに入れて、プロジェクトルートに全ラベルを記述した `labels.txt`を作成します。
 
