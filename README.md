@@ -1,9 +1,9 @@
 # Multi-label-Inception-net
-Modified `retrain.py` script to allow multi-label image classification using pretrained [Inception net](https://github.com/tensorflow/models/tree/master/research/inception).
+Modified `retrain.py` script to allow multi-label image classification using pretrained [Inception net](https://github.com/tensorflow/models/tree/master/research/inception).  
 訓練済みの[Inception net]（https://github.com/tensorflow/models/tree / master / research /inception）を使用してマルチラベルの画像分類を可能にするように `retrain.py`スクリプトを修正しました。
 
 
-The `label_image.py` has also been slightly modified to write out the resulting class percentages into `results.txt`. 
+The `label_image.py` has also been slightly modified to write out the resulting class percentages into `results.txt`.   
 `label_image.py`も各クラスのパーセンテージを` results.txt`に書き出すように少し修正されました。
 
 Detailed explanation of all the changes and reasons behind them: 
@@ -17,18 +17,18 @@ or
 
 [TensorFlow 1.1.0](https://github.com/tensorflow/tensorflow/releases/tag/v1.1.0) - use branch `tensorflow_1.0` - thanks [moh3th1](https://github.com/moh3th1)
 
-All the training images must be in JPEG format.
+All the training images must be in JPEG format.  
 すべてのトレーニング画像はJPEG形式でなければなりません。
 
 
 ### Usage
 
 #### Update
-This version has been update to solve possible problems with calculating evaluation accuracies.
+This version has been update to solve possible problems with calculating evaluation accuracies.  
 このバージョンは検証時精度（evaluation accuracies）の正確さを計算することで起こりうる問題を解決するために更新されました。
 
 Usage change: （使い方）
-Put all the training images in one folder and create a file `labels.txt` inside project root containing all the possible labels.
+Put all the training images in one folder and create a file `labels.txt` inside project root containing all the possible labels.  
 すべてのトレーニング画像を1つのフォルダに入れて、プロジェクトルートに全ラベルを記述した `labels.txt`を作成します。
 
 
